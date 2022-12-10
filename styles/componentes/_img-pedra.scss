@@ -1,0 +1,10 @@
+@import '../abstract/variaveis';
+
+.img-pedra {
+    text-align: center; 
+    padding: 5px;
+    line-height: 22px;
+    h4 {
+        color: $cor-segundaria;
+    }   
+}

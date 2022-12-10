@@ -1,0 +1,19 @@
+@import '../abstract/variaveis';
+
+@mixin bg-cores {
+    background: linear-gradient(to left, $cor-primaria, $cor-segundaria, $cor-terciaria, $cor-primaria, $cor-terciaria);
+}
+
+footer {
+    text-align: center;
+    font-size: $tamanho-do-texto / 2;
+    border-top: 2px solid $cor-primaria;
+    margin-top: 1rem;
+    padding: 1.2rem; 
+    @include bg-cores();  
+    i {
+        color: red;
+    }
+}
+
+
